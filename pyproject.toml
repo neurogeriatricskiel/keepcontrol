@@ -1,0 +1,20 @@
+[project]
+name = "keepcontrol"
+version = "0.0.1"
+description = "A Python package to process the Keep Control Validation dataset"
+readme = "README.md"
+requires-python = ">=3.10,<4"
+dependencies = [
+    "dynamax>=1.0.1",
+    "matplotlib>=3.10.7",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "scipy>=1.15.3",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.9.0",
+    "jupyter>=1.1.1",
+    "watermark>=2.5.0",
+]
